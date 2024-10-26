@@ -15,7 +15,7 @@
     --Rose800: hsl(332, 51%, 32%);
     --Rose50: hsl(330, 100%, 98%);
 }
-
+/*image update*/
 body{
     background-color: var(--Stone100);
     display: flex;
