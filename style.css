@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --White: hsl(0, 0%, 100%);
+
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+
+    --Brown800: hsl(14, 45%, 36%);
+
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--Stone100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1450px;
+    font-family: "Outfit", sans-serif;
+    color: var(--Stone600);
+    font-size: 0.85rem;
+}
+
+.title{
+    font-family: "Young Serif", serif;
+}
+
+.recipie-container{
+    top: 30px;
+    width: 50%;
+    padding: 2.5rem;
+    border-radius: 20px;
+    background-color: var(--White);
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.main-recipie{
+    color: var(--Stone900);
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pink-container{
+    background-color: var(--Rose50);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.preparation-time-title{
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: var(--Rose800);
+    padding-bottom: 15px;
+}
+
+li {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+li::marker {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
+ul{
+    padding-left: 20px;
+}
+ol{
+    padding-left: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 1.5rem;
+    color: var(--Brown800);
+    margin-bottom: 1.2rem;
+}
+
+.instruction-grp-dividor{
+    width: 100%;
+    background-color: var(--Stone150);
+    height: 0.5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+table{
+    margin-top: 1rem;
+    width: 100%;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+tr{
+    padding: 20px; 
+}
+
+.my-info .border-bottom {
+    border-bottom : 1px solid var(--Stone150);
+}
+
+td{
+    padding: 10px;
+}
+
+.value{
+    font-weight: bold;
+    color: var(--Brown800);
+}
+
+.attribution 
+{ 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
